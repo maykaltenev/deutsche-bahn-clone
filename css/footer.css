@@ -3,15 +3,36 @@
 footer section ul li{
     display: none;
 }
-
+footer section ul{
+padding: 0%;
+}
+/* using grid for the mobile version  */
 .besuchen{
     display: grid;
-    grid-template-rows: repeat(4 , 10vh);
+    grid-template-rows: repeat(4 , 6vh);
     grid-template-areas: 
-    "uns"
+    "sie-uns"
     "start-footer"
     "moglihe"
     "end-footer";
+}
+.moglihe{
+    grid-area: mogliche;
+}
+.start-footer{
+    grid-area: start-footer;
+    display: flex;
+    justify-content: start;
+    gap: 1%;
+}
+.sie-uns{
+    grid-area: sie-uns;
+}
+.end-footer{
+    grid-area: end-footer;
+    display: flex;
+    gap: 3%;
+    align-items: center;
 }
 
 .navigator-db{
@@ -27,22 +48,4 @@ footer section ul li{
     color: #FFF;
     padding: 1px 0rem 20px ;
     text-decoration: none;
-}
-.moglihe{
-    grid-area: mogliche;
-}
-.start-footer{
-    grid-area: start-footer;
-    display: flex;
-    justify-content: start;
-    gap: 1%;
-}
-.sie-uns{
-    grid-area: uns;
-}
-.end-footer{
-    grid-area: end-footer;
-    display: flex;
-    gap: 3%;
-    align-items: center;
 }
