@@ -1,32 +1,22 @@
 /* @import url(./normalize.css); */
-
+@import url(/css/footer.css);
 body {
   display: grid;
-  grid-template-rows: 25vh 30vh 70vh 45vh 35vh;
+  grid-template-rows: 35vh  150vh  80vh;
   grid-template-areas:
     "header"
     "banner-form-carousel"
-    "cards"
-    "regional-unterwegs"
     "footer";
 }
 header {
   grid-area: header;
   background-color: gray;
 }
-.banner-form-carousel {
+main {
   grid-area: banner-form-carousel;
   background: orange;
 }
-.cards {
-  grid-area: cards;
-  background: blueviolet;
-}
-.regional-unterwegs {
-  grid-area: regional-unterwegs;
-  background: pink;
-}
-.footer {
+footer {
   grid-area: footer;
   background: firebrick;
 }
