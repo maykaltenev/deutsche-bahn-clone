@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Maykal Tenev & Christoforos Choras" />
+    <meta
+      name="keywords"
+      content="deutsche, bahn, html, css, mobile, media, queries, responsive, grid, flex"
+    />
+    <title>Deutsche Bahn</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- first navigation  -->
+      <nav>
+        <div class="logo">DB</div>
+        <!-- hidden div in mobile version -->
+        <div>
+          <ul>
+            <li><a href="#"></a>Starseite</li>
+            <li><a href="#"></a>bahn.de/aktuell</li>
+            <li><a href="#"></a>Hilfe & Kontakt</li>
+            <li><a href="#">map/Deutsch</a></li>
+          </ul>
+          <div>
+            <input type="search" name="suchen" id="search" /><i>magnifier</i>
+          </div>
+        </div>
+        <!-- mobile version / hidden in desktop -->
+        <div class="menu">Menü</div>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+      <!-- second nav only in desktop / hidden in mobile -->
+      <nav>
+        <div>Tickets & Angebote</div>
+        <div>Info & Services</div>
+        <div>Geschäftskunden</div>
+        <div>Login</div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article class="banner">
+          <div class="sticker-price">Ab 12.90 Euro</div>
+          <div class="image-river-banner"></div>
+          <div class="sparpreis"></div>
+          <div class="button-sparpreis">Zum Super Sparpreis Young</div>
+        </article>
+        <article class="reise-form">
+          <form action="#">
+            Reiseauskunft
+            <input
+              type="search"
+              name="von"
+              id="von-stadt"
+              placeholder="von Bahnohf / Haltestelle / Adresse"
+            />
+            <input type="button" />
+            <input
+              type="search"
+              name="nach"
+              id="nach-stadt"
+              placeholder="nach Bahnohf / Haltestelle / Adresse"
+            />
+            <!-- button arrow down -->
+            <input type="button" value="" /> ^
+            <input type="date" name="date" id="starting-date" />
+            <input type="button" value="" />
+            <input type="time" />
+            <input type="radio" name="ab-an" id="ab-an" /><span>Ab</span>
+            <input type="radio" name="ab-an" id="ab-an" /><span>An</span>
+            <div>
+              <a href="#"><i>></i> Nur Sitzplatz (kein Ticket)</a>
+            </div>
+            <input type="submit" value="suchen" />
+          </form>
+        </article>
+        <article></article>
+      </section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
