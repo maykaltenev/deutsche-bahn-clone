@@ -1,16 +1,17 @@
 /* footer mobile styles and sizes  */
 /* hide the li display when it clicked */
-footer section ul li{
-    display: none;
+
+footer section ul li {
+  display: none;
 }
-footer section ul{
-padding: 0 ;
+footer section ul {
+  padding: 0;
 }
 /* using grid for the mobile version  */
-.besuchen{
-    display: grid;
-    grid-template-rows: repeat(4 , 5vh);
-    grid-template-areas: 
+.besuchen {
+  display: grid;
+  grid-template-rows: repeat(4, 5vh);
+  grid-template-areas:
     "besuchen-sie-uns"
     "start-footer"
     "mogliche"
@@ -31,11 +32,11 @@ padding: 0 ;
 .mogliche{
     grid-area: mogliche;
 }
-.end-footer{
-    grid-area: end-footer;
-    display: flex;
-    gap: 3%;
-    align-items: center;
+.end-footer {
+  grid-area: end-footer;
+  display: flex;
+  gap: 3%;
+  align-items: center;
 }
 .end-footer-list-impressum ul{
     display: flex;
