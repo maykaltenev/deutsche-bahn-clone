@@ -1,16 +1,21 @@
 main {
   grid-area: banner-form-carousel;
+
   display: grid;
-  grid-template-rows: 40vh 120vh 30vh;
+  grid-template-rows: 40vh 120vh 50vh;
   grid-template-areas:
     "banner-form-carousel"
     "cards"
     "regional-unterwegs";
 }
 /* name grid areas */
-
+.banner-form-carousel {
+  grid-area: banner-form-carousel;
+  background-color: green;
+}
 .cards {
   grid-area: cards;
+  background-color: blue;
 }
 .regional-unterwegs {
   grid-area: regional-unterwegs;

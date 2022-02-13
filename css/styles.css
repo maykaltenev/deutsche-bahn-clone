@@ -3,10 +3,11 @@
 @import url(/css/header.css);
 @import url(/css/main.css);
 @import url(/css/banner-form-carousel.css);
+@import url(/css/regional-unterwegs.css);
 body {
   display: grid;
   width: 100vw;
-  grid-template-rows: 7vh 190vh 50vh;
+  grid-template-rows: 7vh 210vh 50vh;
   grid-template-areas:
     "header"
     "banner-form-carousel"
