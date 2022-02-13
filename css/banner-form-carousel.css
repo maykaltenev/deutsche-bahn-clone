@@ -1,0 +1,60 @@
+.banner-form-carousel {
+  grid-area: banner-form-carousel;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 21vh 20vh 10vh;
+  grid-template-areas:
+    "banner"
+    "form"
+    "carousel";
+}
+/* image and text */
+.banner {
+  grid-area: banner;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* size of the image */
+.banner img {
+  width: 100%;
+  height: 40%;
+  border: 1px red solid;
+}
+/* center text */
+.banner .sparpreis {
+  width: 80%;
+  height: 10%;
+  font-weight: 900;
+}
+.example {
+  width: 80%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 3%;
+  margin-bottom: 5%;
+}
+.banner a {
+  width: 100%;
+  height: 35%;
+  border: 1px red solid;
+  padding: 18px 60px;
+  background-color: gray;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3%;
+  color: white;
+  font-weight: 900;
+}
+.reise-form {
+  grid-area: form;
+  background-color: blueviolet;
+}
+.carousel {
+  grid-area: carousel;
+  background-color: rgb(127, 131, 255);
+}

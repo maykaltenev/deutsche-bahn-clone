@@ -1,20 +1,17 @@
 main {
-    grid-area: banner-form-carousel;
-    background: orange;
-    display: grid;
-    grid-template-rows: 40vh 120vh 30vh ;
-    grid-template-areas: 
+  grid-area: banner-form-carousel;
+  display: grid;
+  grid-template-rows: 40vh 120vh 30vh;
+  grid-template-areas:
     "banner-form-carousel"
     "cards"
     "regional-unterwegs";
-  }
+}
 /* name grid areas */
-.banner-form-carousel{
-    grid-area: banner-form-carousel;
+
+.cards {
+  grid-area: cards;
 }
-.cards{
-    grid-area: cards;
-}
-.regional-unterwegs{
-    grid-area: regional-unterwegs;
+.regional-unterwegs {
+  grid-area: regional-unterwegs;
 }

@@ -2,6 +2,7 @@
 @import url(/css/footer.css);
 @import url(/css/header.css);
 @import url(/css/main.css);
+@import url(/css/banner-form-carousel.css);
 body {
   display: grid;
   width: 100vw;
