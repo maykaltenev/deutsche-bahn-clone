@@ -13,12 +13,14 @@ padding: 0 ;
     grid-template-areas: 
     "besuchen-sie-uns"
     "start-footer"
-    "moglihe"
+    "mogliche"
     "end-footer";
 }
-.moglihe{
-    grid-area: mogliche;
+/* naming the grid areas */
+.besuchen-sie-uns{
+    grid-area: besuchen-sie-uns;
 }
+/* start footer div */
 .start-footer{
     grid-area: start-footer;
     display: flex;
@@ -26,12 +28,22 @@ padding: 0 ;
     align-items: center;
     gap: 1%;
 }
-.besuchen-sie-uns{
-    grid-area: besuchen-sie-uns;
+.mogliche{
+    grid-area: mogliche;
 }
 .end-footer{
     grid-area: end-footer;
     display: flex;
     gap: 3%;
     align-items: center;
+}
+.end-footer-list-impressum ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 6%;
+}
+.end-footer-list-impressum ul li{
+    display: flex;
 }
