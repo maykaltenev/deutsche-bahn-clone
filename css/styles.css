@@ -1,6 +1,7 @@
 @import url(./normalize.css);
 @import url(/css/footer.css);
 @import url(/css/header.css);
+@import url(/css/main.css);
 body {
   display: grid;
   width: 100vw;
@@ -10,8 +11,8 @@ body {
     "banner-form-carousel"
     "footer";
 }
-main {
-  grid-area: banner-form-carousel;
-  background: orange;
-}
 
+
+1 baner-ca
+2 cards
+3 regional
