@@ -2,7 +2,7 @@ main {
     grid-area: banner-form-carousel;
     
     display: grid;
-    grid-template-rows: 40vh 120vh 50vh ;
+    grid-template-rows: 40vh 120vh 60vh ;
     grid-template-areas: 
     "banner-form-carousel"
     "cards"
