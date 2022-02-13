@@ -4,7 +4,7 @@
 body {
   display: grid;
   width: 100vw;
-  grid-template-rows: 35vh 150vh 80vh;
+  grid-template-rows: 35vh 180vh 50vh;
   grid-template-areas:
     "header"
     "banner-form-carousel"
@@ -14,3 +14,4 @@ main {
   grid-area: banner-form-carousel;
   background: orange;
 }
+
