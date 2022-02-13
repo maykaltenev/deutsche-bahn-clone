@@ -2,6 +2,7 @@
 @import url(/css/footer.css);
 @import url(/css/header.css);
 @import url(/css/main.css);
+@import url(/css/banner-form-carousel.css);
 @import url(/css/regional-unterwegs.css);
 body {
   display: grid;

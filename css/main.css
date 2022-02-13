@@ -7,17 +7,16 @@ main {
     "banner-form-carousel"
     "cards"
     "regional-unterwegs";
-  }
+}
 /* name grid areas */
-.banner-form-carousel{
-    grid-area: banner-form-carousel;
-    background-color: green;
+.banner-form-carousel {
+  grid-area: banner-form-carousel;
+  background-color: green;
 }
-.cards{
-    grid-area: cards;
-    background-color: blue;
+.cards {
+  grid-area: cards;
+  background-color: blue;
 }
-.regional-unterwegs{
-    grid-area: regional-unterwegs;
-    
+.regional-unterwegs {
+  grid-area: regional-unterwegs;
 }
