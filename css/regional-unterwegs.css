@@ -1,0 +1,25 @@
+.regional-unterwegs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.bridge-image img{
+    width: 100%;
+}
+.social-media-icons {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content:center;
+    gap: 5%;
+}
+.social-media-icons div img{
+    width: 100%;
+    height: 100%;
+}
+.regional-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
