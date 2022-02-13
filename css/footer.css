@@ -1,37 +1,38 @@
 /* footer mobile styles and sizes  */
 /* hide the li display when it clicked */
-footer section ul li{
-    display: none;
+
+footer section ul li {
+  display: none;
 }
-footer section ul{
-padding: 0 ;
+footer section ul {
+  padding: 0;
 }
 /* using grid for the mobile version  */
-.besuchen{
-    display: grid;
-    grid-template-rows: repeat(4 , 5vh);
-    grid-template-areas: 
+.besuchen {
+  display: grid;
+  grid-template-rows: repeat(4, 5vh);
+  grid-template-areas:
     "besuchen-sie-uns"
     "start-footer"
-    "moglihe"
+    "mogliche"
     "end-footer";
 }
-.moglihe{
-    grid-area: mogliche;
+.moglihe {
+  grid-area: mogliche;
 }
-.start-footer{
-    grid-area: start-footer;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 1%;
+.start-footer {
+  grid-area: start-footer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1%;
 }
-.besuchen-sie-uns{
-    grid-area: besuchen-sie-uns;
+.besuchen-sie-uns {
+  grid-area: besuchen-sie-uns;
 }
-.end-footer{
-    grid-area: end-footer;
-    display: flex;
-    gap: 3%;
-    align-items: center;
+.end-footer {
+  grid-area: end-footer;
+  display: flex;
+  gap: 3%;
+  align-items: center;
 }

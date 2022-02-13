@@ -1,22 +1,16 @@
-/* @import url(./normalize.css); */
+@import url(./normalize.css);
 @import url(/css/footer.css);
+@import url(/css/header.css);
 body {
   display: grid;
-  grid-template-rows: 35vh  150vh  80vh;
+  width: 100vw;
+  grid-template-rows: 35vh 150vh 80vh;
   grid-template-areas:
     "header"
     "banner-form-carousel"
     "footer";
 }
-header {
-  grid-area: header;
-  background-color: gray;
-}
 main {
   grid-area: banner-form-carousel;
   background: orange;
-}
-footer {
-  grid-area: footer;
-  background: firebrick;
 }
