@@ -47,12 +47,11 @@ footer section ul {
   gap: 3%;
   align-items: center;
 }
-
 /* end footer list positionwith flex and styles  */
 .end-footer-list-impressum ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     align-items: center;
     margin-right: 6%;
 }
