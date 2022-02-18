@@ -32,10 +32,12 @@ nav:nth-of-type(2) {
   gap: 10%;
   margin-right: 4%;
 }
+/* align menu at the end */
 .menu {
   display: flex;
   justify-content: flex-end;
 }
+/* making the hamburger */
 .hamburger {
   width: 2rem;
   height: 2rem;
